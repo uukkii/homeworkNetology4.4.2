@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println("Добро пожаловать!");
         while (true) {
-            System.out.println("Введите информацию о суденте в следующем формате: ФИО, № группы, ID студенческого билета.\n" +
+            System.out.println("Введите информацию о студенте в следующем формате: ФИО, № группы, ID студенческого билета.\n" +
                     "Для завершения введите 'end'");
 
             String input = console.nextLine();
