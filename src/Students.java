@@ -26,8 +26,9 @@ public class Students {
         if (this == object) return true;
         if (object == null || !object.getClass().equals(Students.class))
             return false;
+
         Students altStudent = (Students) object;
-        return this.studentId != altStudent.studentId;
+        return getStudentId() != null ? getStudentId().equals(altStudent.getStudentId()) : altStudent.getStudentId() == null;
     }
 
     @Override
